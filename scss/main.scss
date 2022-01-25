@@ -1,0 +1,10 @@
+//variables
+@import "../scss/variables/variables";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import "../scss/utililidades/header";
+@import "../scss/utililidades/main";
+@import "../scss/utililidades/footer";
