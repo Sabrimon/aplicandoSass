@@ -3,25 +3,67 @@
   padding: 0;
   box-sizing: border-box; }
 
+h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+  line-height: 1.5; }
+
+p {
+  background-color: #3673D9;
+  text-align: center;
+  padding: 1rem;
+  font-size: 20px; }
+
 header {
-  background-image: linear-gradient(#8583ec, #b7b7e9); }
+  background-image: linear-gradient(#8583ec, #b7b7e9);
+  padding: 2rem; }
 
 .nav-link {
   color: black; }
 
+@media (max-width: 768px) {
+  .imgLogo {
+    width: 30%; } }
+
+@media (max-width: 572px) {
+  .imgLogo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
+
 main {
-  background-color: #e7c6ee; }
+  background-color: black;
+  text-align: center; }
+  main .formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 .main_div--imgjuana {
-  width: 400px;
-  height: 600px; }
+  width: 32%; }
 
 .main_div--imgNatura {
   width: 32%; }
 
 .main_div--img {
-  width: 400px;
-  height: 450px; }
+  width: 32%; }
+
+@media (max-width: 768px) {
+  main .videoExplicativo {
+    width: 560px;
+    height: 315px; } }
+
+@media (max-width: 572px) {
+  main .videoExplicativo {
+    width: 280px;
+    height: 157.5px; } }
+
+h1 {
+  color: #EAFFDA;
+  font-size: 36px;
+  font-weight: 900;
+  text-transform: uppercase; }
 
 .footer {
   background-image: linear-gradient(#A3B18A, white); }
@@ -33,9 +75,21 @@ main {
   padding: 75px;
   margin: 5px 0px 15px 50px; }
 
+.iconoFacebook {
+  width: 50%; }
+
 .footer__div--contactanos {
   height: 100px;
   width: 100px;
   display: inline-block;
   padding: 75px;
   margin: 15px 0px 15px 700px; }
+
+@media (max-width: 768px) {
+  .footer__div--contactanos {
+    margin: 15px 0px 15px 100px; } }
+
+h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+  line-height: 1.5; }

@@ -1,9 +1,16 @@
 main {
-    background-color: #e7c6ee;
+    background-color: black;
+    text-align: center;
+    .formulario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
+
 .main_div--imgjuana {
-    width: 400px;
-    height: 600px;
+    width: 32%;
+   
 }
 
 .main_div--imgNatura {
@@ -11,6 +18,24 @@ main {
 }
 
 .main_div--img {
-    width: 400px;
-    height: 450px;
+    width:32%;
+}
+
+@media (max-width: 768px) {
+   main{
+ .videoExplicativo {
+    width: 560px ;
+    height: 315px ;
+    }
+}}
+
+@media (max-width: 572px) {
+   main{
+        .videoExplicativo {
+        width: 280px ;
+        height: 157.5px ;
+    }
+}}
+h1{
+     @include fontStyle ($colorh1, 36px, 900);
 }
