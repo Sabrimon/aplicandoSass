@@ -1,0 +1,8 @@
+SEO:
+*En cada página del sitio:
+                         1-coloqué el título correspondiente.
+                         2-apliqué la etiqueta "meta" con el nombre keywords (indicando las palabras claves)
+                         3-apliqué la etiqueta "meta" con el nombre description (Explicando de qué se trata cada página del sitio)
+*los videos son con URL absoluta.
+*Optimicé el tamaño de las imágenes disminuyendo la calidad con PHOTOPEA.
+*Se respetó la jerarquía de los h1, h2, h3.
