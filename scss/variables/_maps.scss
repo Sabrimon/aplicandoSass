@@ -1,14 +1,8 @@
 //mat-get// 
 $estilos: (
-  color: #3673D9,
+  color: rgb(155, 155, 219),
   centro: center,
-  tFuente: 20px,
+  tFuente: 30px,
   1rem : 1rem
 );
 
-p {
-  background-color: map-get($estilos, color);
-  text-align: map-get($estilos, centro);
-  padding: map-get($estilos, 1rem);
-  font-size:map-get($estilos, tFuente);
-}

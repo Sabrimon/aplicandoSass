@@ -8,15 +8,12 @@ h3 {
   font-family: sans-serif;
   line-height: 1.5; }
 
-p {
-  background-color: #3673D9;
-  text-align: center;
-  padding: 1rem;
-  font-size: 20px; }
-
 header {
-  background-image: linear-gradient(#8583ec, #b7b7e9);
+  background-image: linear-gradient(#b7b7e9, #8583ec);
   padding: 2rem; }
+
+.imgLogo {
+  border-radius: 300px; }
 
 .nav-link {
   color: black; }
@@ -33,12 +30,27 @@ header {
     justify-content: center; } }
 
 main {
-  background-color: #3673D9;
+  background-image: linear-gradient(#b7b7e9, #8583ec);
   text-align: center; }
+  main .carousel {
+    margin: 0px 300px 20px 150px; }
   main .formulario {
     display: flex;
     align-items: center;
     justify-content: center; }
+  main .parrafoNovedad {
+    background-image: radial-gradient(#f803f8, #ff2aca, #ffb7ed);
+    padding: 1rem;
+    font-size: 30px; }
+    main .parrafoNovedad .destacado {
+      font-weight: bold;
+      color: red; }
+
+.parrafoIntroduccion {
+  background-color: #9b9bdb;
+  text-align: center;
+  padding: 1rem;
+  font-size: 30px; }
 
 .main_div--imgjuana {
   width: 32%; }
@@ -52,12 +64,16 @@ main {
 @media (max-width: 768px) {
   main .videoExplicativo {
     width: 560px;
-    height: 315px; } }
+    height: 315px; }
+  main .carousel {
+    margin: 0px 50px 0px 100px; } }
 
 @media (max-width: 572px) {
   main .videoExplicativo {
     width: 280px;
-    height: 157.5px; } }
+    height: 157.5px; }
+  main .carousel {
+    margin: 0px 25px 0px 50px; } }
 
 h1 {
   color: #EAFFDA;
@@ -66,7 +82,7 @@ h1 {
   text-transform: uppercase; }
 
 .footer {
-  background-image: linear-gradient(#A3B18A, white); }
+  background-image: linear-gradient(#8583ec, #b7b7e9); }
 
 .footer__div--seguinos {
   height: 100px;
