@@ -13,21 +13,22 @@ header {
   padding: 2rem; }
 
 .imgLogo {
-  border-radius: 300px; }
+  border-radius: 300px;
+  width: 10%;
+  margin: 0px 300px 0px 1000px; }
 
 .nav-link {
   color: black; }
 
 @media (max-width: 768px) {
   .imgLogo {
-    width: 30%; } }
+    width: 30%;
+    margin: 0px 703px 57px 194px; } }
 
 @media (max-width: 572px) {
   .imgLogo {
     width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center; } }
+    margin: 0px 703px 57px 145px; } }
 
 main {
   background-image: linear-gradient(#9b9bdb, #8583ec);
@@ -44,7 +45,7 @@ main {
     font-size: 30px; }
     main .parrafoNovedad .destacado {
       font-weight: bold;
-      color: red; }
+      color: white; }
 
 .parrafoIntroduccion {
   background-color: #9b9bdb;
@@ -54,6 +55,9 @@ main {
 
 .main_div--imgjuana {
   width: 32%; }
+
+.main_div--imgNat {
+  width: 100vw; }
 
 .main_div--imgNatura {
   width: 32%; }
@@ -81,26 +85,36 @@ h1 {
   font-weight: 900;
   text-transform: uppercase; }
 
-.footer {
-  background-image: linear-gradient(#8583ec, #b7b7e9); }
+footer div nav {
+  align-content: space-around; }
 
-.footer__div--seguinos {
-  height: 100px;
-  width: 100px;
-  display: inline-block;
-  padding: 75px;
-  margin: 5px 0px 15px 50px; }
+.footer {
+  background-image: linear-gradient(#8583ec, #b7b7e9);
+  height: 30vh; }
 
 .iconoFacebook {
-  width: 50%; }
+  color: blue;
+  font-size: 2rem;
+  margin: 50px 50px 50px 50px;
+  padding: 0.5rem;
+  text-decoration: none; }
+  .iconoFacebook:hover {
+    background-color: #00aeff; }
 
-.footer__div--contactanos {
-  height: 100px;
-  width: 100px;
-  display: inline-block;
-  padding: 75px;
-  margin: 15px 0px 15px 700px; }
+.iconoInstagram {
+  color: black;
+  font-size: 2rem;
+  margin: 50px 50px 50px 50px;
+  padding: 0.5rem;
+  text-decoration: none; }
+  .iconoInstagram:hover {
+    background-color: #5eb0d6; }
 
-@media (max-width: 768px) {
-  .footer__div--contactanos {
-    margin: 15px 0px 15px 100px; } }
+.iconoWhatsapp {
+  color: green;
+  font-size: 2rem;
+  margin: 50px 50px 50px 50px;
+  padding: 0.5rem;
+  text-decoration: none; }
+  .iconoWhatsapp:hover {
+    background-color: #48d660; }

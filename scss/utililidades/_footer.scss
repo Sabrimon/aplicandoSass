@@ -1,34 +1,55 @@
+footer{
+    div{
+        nav{
+            align-content: space-around;
+        }
+        }
+    }
+
 .footer {
     background-image: linear-gradient(rgb(133, 131, 236), rgb(183, 183, 233));
+    height: 30vh;
+    
 }
+.iconoFacebook {
+    color: blue;
+    font-size: 2rem;
+    margin: 50px 50px 50px 50px;
+    padding: 0.5rem;
+    text-decoration: none;
 
-.footer__div--seguinos {
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    padding: 75px;
-    margin: 5px 0px 15px 50px;
-   
-}
-.iconoFacebook{
-    width: 50%;
-}
-
-.footer__div--contactanos {
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    padding: 75px;
-    margin: 15px 0px 15px 700px;
-}
-
-@media (max-width: 768px) {
-
-    .footer__div--contactanos {
-        margin: 15px 0px 15px 100px;
+    &:hover {
+        background-color: rgb(0, 174, 255);
     }
 }
 
-h3{
+.iconoInstagram {
+    color: black;
+    font-size: 2rem;
+    margin: 50px 50px 50px 50px;
+    padding: 0.5rem;
+    text-decoration: none;
+
+    &:hover {
+        background-color: rgb(94, 176, 214);
+
+    }
+}
+
+.iconoWhatsapp {
+    color: green;
+    font-size: 2rem;
+    margin: 50px 50px 50px 50px;
+    padding: 0.5rem;
+    text-decoration: none;
+
+    &:hover {
+        background-color: rgb(72, 214, 96);
+
+    }
+
+}
+
+h3 {
     @extend %estiloPalabras;
 }
