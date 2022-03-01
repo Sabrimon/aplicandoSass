@@ -47,12 +47,6 @@ main {
     align-items: center;
 }
 
-.main_div--imgNat{
-    width:40vw;
-}
-.main_div--imgNatura {
-    width: 32%;
-}
 
 .vanesaImagenes{
     display: flex;
@@ -92,8 +86,15 @@ textarea{
     background-color:rgb(255, 213, 255) ;
 }
 @media (max-width: 768px) {
-   main
-    
+   main{
+    align-items: center;  
+   }
+   .carouselPadre{
+       width: 30%;
+       height: 40%;
+       align-items: center;
+
+    }
     .parrafoNovedad{
         font-size: 20px;
         width: 70vw;
