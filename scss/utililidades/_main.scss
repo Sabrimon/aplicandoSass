@@ -1,18 +1,30 @@
 main {
-    background-image: linear-gradient( rgb(155, 155, 219), rgb(133, 131, 236) );
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrWTvfAcKTdSQ9ldsj1BdmpmyGWFxr6QTVpg&usqp=CAU");
     text-align: center;
-    .carousel{
-        margin: 0px 300px 20px 150px;
-    }
     .formulario{
         display: flex;
         align-items: center;
         justify-content: center;
     }
+    .carouselPadre{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .parrafoNov{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+    }
     .parrafoNovedad{
-        background-image: radial-gradient(rgb(248, 3, 248), rgb(255, 42, 202), rgb(255, 183, 237) );
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG4NxPj3Qi77Ggh6R8qOFlfYnR4KcPb0uO_w&usqp=CAU");
         padding: 1rem;
         font-size: 30px;
+        color: black;
+        width: 70vw;
+        font-weight: bold;
+        border-radius: 100px;
         .destacado{
             font-weight: bold;
             color: white;
@@ -27,45 +39,75 @@ main {
     font-size:map-get($estilos, tFuente);
   }
   
-
-.main_div--imgjuana {
-    width: 32%;
-   
+.juanaBonitaPadre{
+    display:flex;
+    flex-direction: row; 
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    align-items: center;
 }
+
 .main_div--imgNat{
-    width:100vw;
+    width:40vw;
 }
 .main_div--imgNatura {
     width: 32%;
 }
 
-
+.vanesaImagenes{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3%;
+    
+}
 .main_div--img {
     width:32%;
 }
+.videoExplicativo{
+    width: 70vw;
+    height: 70vh;
+}
+.tabla{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: antiquewhite;
 
-
+}
+input{
+    background-color: rgb(255, 213, 255);
+}
+legend{
+    color: black;
+    font-weight: bold;
+}
+select{
+    background-color: rgb(255, 213, 255);
+}  
+textarea{
+    background-color:rgb(255, 213, 255) ;
+}
 @media (max-width: 768px) {
-   main{
- .videoExplicativo {
-    width: 560px ;
-    height: 315px ;
+   main
+    
+    .parrafoNovedad{
+        font-size: 20px;
+        width: 70vw;
     }
-    .carousel{
-        margin: 0px 50px 0px 100px;
-    }
-}}
+}
 
 @media (max-width: 572px) {
-   main{
-        .videoExplicativo {
-        width: 280px ;
-        height: 157.5px ;
+   main
+    
+    .parrafoNovedad{
+        font-size: 10px;
+        width: 80vw;
     }
-    .carousel{
-        margin: 0px 25px 0px 50px;
-    }
-}}
+}
 h1{
      @include fontStyle ($colorh1, 36px, 900);
 }

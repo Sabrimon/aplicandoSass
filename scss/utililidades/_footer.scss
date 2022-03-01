@@ -3,12 +3,25 @@ footer{
         nav{
             align-content: space-around;
         }
+        a{
+            text-decoration: none;
+        }
         }
     }
 
 .footer {
     background-image: linear-gradient(rgb(133, 131, 236), rgb(183, 183, 233));
     height: 30vh;
+    .navPadre{
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-around;
+        align-items: center;
+        .navHijo{
+            
+        }
+    }
+    
     
 }
 .iconoFacebook {

@@ -40,18 +40,29 @@ header {
     width: 10vw; } }
 
 main {
-  background-image: linear-gradient(#9b9bdb, #8583ec);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrWTvfAcKTdSQ9ldsj1BdmpmyGWFxr6QTVpg&usqp=CAU");
   text-align: center; }
-  main .carousel {
-    margin: 0px 300px 20px 150px; }
   main .formulario {
     display: flex;
     align-items: center;
     justify-content: center; }
+  main .carouselPadre {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  main .parrafoNov {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%; }
   main .parrafoNovedad {
-    background-image: radial-gradient(#f803f8, #ff2aca, #ffb7ed);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG4NxPj3Qi77Ggh6R8qOFlfYnR4KcPb0uO_w&usqp=CAU");
     padding: 1rem;
-    font-size: 30px; }
+    font-size: 30px;
+    color: black;
+    width: 70vw;
+    font-weight: bold;
+    border-radius: 100px; }
     main .parrafoNovedad .destacado {
       font-weight: bold;
       color: white; }
@@ -62,31 +73,63 @@ main {
   padding: 1rem;
   font-size: 30px; }
 
-.main_div--imgjuana {
-  width: 32%; }
+.juanaBonitaPadre {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; }
 
 .main_div--imgNat {
-  width: 100vw; }
+  width: 40vw; }
 
 .main_div--imgNatura {
   width: 32%; }
 
+.vanesaImagenes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3%; }
+
 .main_div--img {
   width: 32%; }
 
+.videoExplicativo {
+  width: 70vw;
+  height: 70vh; }
+
+.tabla {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: antiquewhite; }
+
+input {
+  background-color: #ffd5ff; }
+
+legend {
+  color: black;
+  font-weight: bold; }
+
+select {
+  background-color: #ffd5ff; }
+
+textarea {
+  background-color: #ffd5ff; }
+
 @media (max-width: 768px) {
-  main .videoExplicativo {
-    width: 560px;
-    height: 315px; }
-  main .carousel {
-    margin: 0px 50px 0px 100px; } }
+  main .parrafoNovedad {
+    font-size: 20px;
+    width: 70vw; } }
 
 @media (max-width: 572px) {
-  main .videoExplicativo {
-    width: 280px;
-    height: 157.5px; }
-  main .carousel {
-    margin: 0px 25px 0px 50px; } }
+  main .parrafoNovedad {
+    font-size: 10px;
+    width: 80vw; } }
 
 h1 {
   color: #EAFFDA;
@@ -97,9 +140,17 @@ h1 {
 footer div nav {
   align-content: space-around; }
 
+footer div a {
+  text-decoration: none; }
+
 .footer {
   background-image: linear-gradient(#8583ec, #b7b7e9);
   height: 30vh; }
+  .footer .navPadre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
 
 .iconoFacebook {
   color: blue;
